@@ -1,8 +1,11 @@
 .debug {
   border: 1px solid black;
-  height: 50px;
 }
 
 .debug-a {
   background-color: aquamarine;
+}
+
+[class^="col"] {
+  height: 150px;
 }
