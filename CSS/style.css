@@ -1,3 +1,4 @@
+
 .debug {
   border: 1px solid black;
 }
@@ -6,6 +7,96 @@
   background-color: aquamarine;
 }
 
-[class^="col"] {
-  height: 150px;
+.container_m {
+  width: 60%;
+}
+
+:root {
+  --bg-green: #19BC9D;
+}
+
+header {
+  background-color: #2C3E50;
+  color: white;
+  height: 90px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+
+/* JUMBOTRONE */
+
+.jumbotrone {
+  color: white;
+  background-color: var(--bg-green);
+}
+
+.jumbotrone img {
+  width: 250px;
+}
+
+.jumbotrone h1 {
+  font-size: 2.5rem;
+}
+
+.jumbotrone p {
+  font-size: 1.1rem;
+}
+
+
+/* PORTFOLIO */
+
+.portfolio col:hover {
+  background-color: rgba(0, 0, 0, 0.549);
+
+}
+.portfolio img {
+  width: 100%;
+}
+
+.portfolio .col .layover {
+  display: none;
+}
+
+.portfolio .col:hover .layover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: 60px;
+  background-color: #0000007a;
+}
+
+
+/* ABOUT */
+
+.about {
+  color: white;
+  background-color: var(--bg-green);
+}
+
+.about p {
+  font-size: 1.3rem;
+}
+
+.about i,
+.about span {
+  font-size: 1.2rem;
+}
+
+
+
+.section-top {
+
 }
