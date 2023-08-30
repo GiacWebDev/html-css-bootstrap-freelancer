@@ -18,7 +18,7 @@
 
   <!-- HEADER -->
 
-  <header>
+  <header class="bg-blue">
     <nav class="navbar navbar-expand-lg navbar-custom">
       <div class="container">
         <a class="navbar-brand" href="#">Start Bootstrap</a>
@@ -150,7 +150,7 @@
     </div>
 
     <!-- CONTACT -->
-    
+
     <div class="contact py-5">
       <div class="container_m m-auto">
         <div class="container">
@@ -164,7 +164,7 @@
                 <input type="text" class="form-control input-custom py-3" placeholder="Name">
                 <input type="email" class="form-control input-custom py-3" placeholder="Email Address">
                 <input type="text" class="form-control input-custom py-3" placeholder="Phone Number">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Message" class="form-control input-custom"></textarea>
+                <textarea name="message" id="message" cols="20" rows="7" placeholder="Message" class="form-control input-custom"></textarea>
                 <button class="btn btn-secondary mt-3 button-custom">Send</button>
               </form>
             </div>
@@ -176,18 +176,62 @@
 
     <!-- FOOTER -->
 
-  <footer class="debug-a py-5">
+  <footer class="py-5 bg-lightblue">
+
     <div class="container">
-      <div class="row row-cols-1 row-cols-md-3 text-center debug">
-        <div class="col">info</div>
-        <div class="col">info</div>
-        <div class="col">info</div>
+
+      <div class="row row-cols-1 row-cols-md-3 text-center">
+        
+        <div class="col mb-4">
+          <h3>Location</h3>
+          <p>2215 John Daniel Drive Clark, MO 54243</p>
+        </div>
+
+        <div class="col mb-4">
+          <h3>around the web</h3>
+
+          <div class="gb-list">
+            <ul class="d-flex justify-content-center ">
+
+              <li>
+                <a class="btn btn-primary rounded-5 mx-2"  href="#!" role="button"
+                ><i class="fab fa-facebook-f"></i></a>
+              </li>
+
+              <li>
+                <a class="btn btn-primary rounded-5 mx-2" href="#!" role="button"
+                ><i class="fab fa-google"></i></a>
+              </li>
+              
+              <li>
+                <a class="btn btn-primary rounded-5 mx-2" href="#!" role="button"
+                ><i class="fab fa-twitter"></i></a>
+              </li>
+             
+              <li>
+                <a class="btn btn-primary rounded-5 mx-2"  href="#!" role="button"
+                ><i class="fab fa-linkedin"></i
+                ></a>
+              </li>
+
+            </ul>
+          </div>
+          
+        </div>
+
+        <div class="col">
+          <h3>About freelancer</h3>
+          <p>Freelance is a dree to use, open source Bootstrap theme created by <a href="#">Start Boostrap</a>.</p>
+        </div>
       </div>
+
     </div>
 
-    <div class="copyright text-center">
-      copyright
-    </div>
   </footer>
+
+  <div class="copyright text-center bg-blue pt-4">
+    <p>Copyright © Your Website 2019</p>
+  </div>
+
 </body>
 </html>

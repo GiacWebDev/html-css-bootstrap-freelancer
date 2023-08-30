@@ -15,8 +15,15 @@
   --bg-green: #19BC9D;
 }
 
+.bg-blue {
+  background-color: #2C3F51;
+}
+
+.bg-lightblue {
+  background-color: #3A556D;
+}
+
 header nav {
-  background-color: #2C3E50;
   height: 90px;
 }
 
@@ -31,7 +38,11 @@ header .navbar-brand {
   text-transform: uppercase;
 }
 
-h2 {
+h2, h3 {
+  text-transform: uppercase;
+}
+
+h1 {
   text-transform: uppercase;
 }
 
@@ -109,6 +120,11 @@ h2 {
   border-right: none;
   border-radius: 0;
   padding-left: 0;
+  font-size: 1.2rem;
+}
+
+.form{
+  color: #2C3E50;
 }
 
 .button-custom {
@@ -118,4 +134,37 @@ h2 {
 
 .button-custom:hover {
   background-color: rgba(0, 128, 0, 0.8);
+}
+
+
+/* FOOTER */
+
+footer .row .col {
+  color: white;
+}
+
+footer .row .col p {
+  font-size: 1.3rem;
+}
+
+footer .row .col li {
+  list-style: none;
+}
+
+footer .row .col li a {
+  background-color: transparent;
+  border-color: white;
+}
+
+footer .row .col:last-child a {
+  text-decoration: none;
+  color: var(--bg-green);
+}
+
+
+/* COPYRIGHT */
+
+.copyright {
+  height: 90px;
+  color: white;
 }
