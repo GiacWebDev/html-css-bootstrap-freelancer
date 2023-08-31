@@ -131,6 +131,9 @@ h2, h3, h1 {
   background-color: white;
 }
 
+.about .row .col p {
+  text-align: left;
+}
 
 /* CONTACT */
 
