@@ -57,24 +57,24 @@ h2, h3, h1 {
 
 /* JUMBOTRONE */
 
-.jumbotrone {
+.jumbotron {
   color: white;
   background-color: var(--bg-green);
 }
 
-.jumbotrone img {
+.jumbotron img {
   width: 250px;
 }
 
-.jumbotrone h1 {
+.jumbotron h1 {
   font-size: 2.5rem;
 }
 
-.jumbotrone p {
+.jumbotron p {
   font-size: 1.1rem;
 }
 
-.jumbotrone .bar {
+.jumbotron .bar {
   height: 5px;
   width: 40%;
   background-color: white;
@@ -83,10 +83,6 @@ h2, h3, h1 {
 
 /* PORTFOLIO */
 
-.portfolio col:hover {
-  background-color: rgba(0, 0, 0, 0.549);
-
-}
 .portfolio img {
   width: 100%;
 }
@@ -96,10 +92,13 @@ h2, h3, h1 {
 }
 
 .portfolio .col:hover .layover {
+  display: flex;
+}
+
+.portfolio .col .layover {
   position: absolute;
   top: 0;
   right: 0;
-  display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -198,4 +197,21 @@ footer .row .col:last-child a {
 .copyright {
   height: 90px;
   color: white;
+}
+
+
+
+/* 
+****************************
+        MEDIA QUERY
+**************************** */
+
+@media screen and (min-width: 768px) {
+  .jumbotron h1 {
+    font-size: 4rem;
+  }
+
+  .jumbotron p {
+    font-size: 1.8rem;
+  }
 }
